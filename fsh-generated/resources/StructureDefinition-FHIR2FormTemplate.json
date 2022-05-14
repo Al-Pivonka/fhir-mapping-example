@@ -1,0 +1,121 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "FHIR2FormTemplate",
+  "url": "http://example.org/StructureDefinition/FHIR2FormTemplate",
+  "version": "0.1.0",
+  "name": "FHIR2FormTemplate",
+  "title": "FHIR2 Form Template",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "FHIR2FormTemplate",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "FHIR2FormTemplate",
+        "path": "FHIR2FormTemplate",
+        "short": "FHIR2 Form Template"
+      },
+      {
+        "id": "FHIR2FormTemplate.template",
+        "path": "FHIR2FormTemplate.template",
+        "short": "The root of the doc",
+        "definition": "The root of the doc",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "FHIR2FormTemplate.template.templateStatus",
+        "path": "FHIR2FormTemplate.template.templateStatus",
+        "short": "the template status",
+        "definition": "the template status",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "FHIR2FormTemplate.template.id",
+        "path": "FHIR2FormTemplate.template.id",
+        "short": " id of the form",
+        "definition": " id of the form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "DomainResource",
+            "profile": [
+              "http://example.org/StructureDefinition/Rendering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FHIR2FormTemplate.template.type",
+        "path": "FHIR2FormTemplate.template.type",
+        "short": " type of the form",
+        "definition": " type of the form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "DomainResource",
+            "profile": [
+              "http://example.org/StructureDefinition/Rendering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FHIR2FormTemplate.template.controlsVersion",
+        "path": "FHIR2FormTemplate.template.controlsVersion",
+        "short": "control version of the form",
+        "definition": "control version of the form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "DomainResource",
+            "profile": [
+              "http://example.org/StructureDefinition/Rendering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FHIR2FormTemplate.template.items",
+        "path": "FHIR2FormTemplate.template.items",
+        "short": "Items list",
+        "definition": "Items list",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "DomainResource",
+            "profile": [
+              "http://example.org/StructureDefinition/Item"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

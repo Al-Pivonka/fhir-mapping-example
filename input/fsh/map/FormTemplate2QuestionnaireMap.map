@@ -1,0 +1,12 @@
+map "http://hl7.org/fhir/StructureMap/example" = "monkeyButt"
+
+uses "http://example.org/StructureDefinition/FHIR2FormTemplate" alias FHIR2FormTemplate as source
+uses "http://hl7.org/fhir/StructureDefinition/Questionnaire" alias Questionnaire as target
+
+
+group FHIR2FormTemplate(source src : FHIR2FormTemplate, target tgt : Questionnaire) extends DomainResource <<type+>> {
+  src.templateStatus -> tgt.status;
+}
+
+
+

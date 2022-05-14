@@ -1,0 +1,92 @@
+{
+  "resourceType": "FHIR2FormTemplate",
+  "id": "FHIR2FormTemplateExample",
+  "template": {
+    "templateStatus": "draft",
+    "id": {
+      "required": true,
+      "id": "FORM_ID",
+      "label": "Id",
+      "value": "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97",
+      "type": "text",
+      "hidden": true,
+      "description": "",
+      "pattern": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+    },
+    "type": {
+      "required": true,
+      "id": "FORM-TYPE",
+      "label": "Form Type",
+      "value": "epro",
+      "type": "text",
+      "hidden": true,
+      "description": "",
+      "pattern": ""
+    },
+    "controlsVersion": {
+      "required": true,
+      "id": "CONTROL-SCHEMA-VERSION",
+      "label": "",
+      "value": "2",
+      "type": "text",
+      "hidden": true,
+      "description": "",
+      "pattern": ""
+    },
+    "items": [
+      {
+        "type": {
+          "type": "header",
+          "linkId": "__S37-form-fields-fe09fa6eto2",
+          "text": "<p>HEADER</p>"
+        },
+        "settings": [
+          {
+            "id": "generalSettings",
+            "name": "General Field Settings",
+            "description": "General Field Settings",
+            "linkId": "__S37-form-fields-fe09fa6eto2",
+            "settings": [
+              {
+                "label": "LinkId",
+                "id": "linkId",
+                "value": "__S37-form-fields-nfasgpsb3ta",
+                "type": "text",
+                "hidden": false,
+                "required": true,
+                "description": "the description",
+                "unique": true,
+                "disabled": true
+              },
+              {
+                "label": "value",
+                "id": "",
+                "value": "<p>HEADER</p>",
+                "type": "text",
+                "hidden": false,
+                "required": false,
+                "description": "the description",
+                "maxLength": 100000,
+                "unique": true,
+                "disabled": true
+              },
+              {
+                "label": "",
+                "id": "version",
+                "value": "1",
+                "type": "text",
+                "hidden": false,
+                "required": false,
+                "description": "the description",
+                "maxLength": 100000,
+                "unique": true,
+                "disabled": true,
+                "pattern": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Item",
+  "url": "http://example.org/StructureDefinition/Item",
+  "version": "0.1.0",
+  "name": "Item",
+  "title": "Item",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Item",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Item",
+        "path": "Item",
+        "short": "Item"
+      },
+      {
+        "id": "Item.type",
+        "path": "Item.type",
+        "short": " the type layer",
+        "definition": " the type layer",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Item.type.type",
+        "path": "Item.type.type",
+        "short": "the type of object",
+        "definition": "the type of object",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Item.type.linkId",
+        "path": "Item.type.linkId",
+        "short": "the linkId",
+        "definition": "the linkId",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Item.type.text",
+        "path": "Item.type.text",
+        "short": " the text value",
+        "definition": " the text value",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Item.settings",
+        "path": "Item.settings",
+        "short": "The Settings for a given type",
+        "definition": "The Settings for a given type",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "DomainResource",
+            "profile": [
+              "http://example.org/StructureDefinition/Setting"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

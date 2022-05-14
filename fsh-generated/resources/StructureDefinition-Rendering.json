@@ -1,0 +1,267 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Rendering",
+  "url": "http://example.org/StructureDefinition/Rendering",
+  "version": "0.1.0",
+  "name": "Rendering",
+  "title": "Rendering",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Rendering",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Rendering",
+        "path": "Rendering",
+        "short": "Rendering"
+      },
+      {
+        "id": "Rendering.label",
+        "path": "Rendering.label",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.hidden",
+        "path": "Rendering.hidden",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.description",
+        "path": "Rendering.description",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.pattern",
+        "path": "Rendering.pattern",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.unique",
+        "path": "Rendering.unique",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.disabled",
+        "path": "Rendering.disabled",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.type",
+        "path": "Rendering.type",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.value",
+        "path": "Rendering.value",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.required",
+        "path": "Rendering.required",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.maxLength",
+        "path": "Rendering.maxLength",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.minLength",
+        "path": "Rendering.minLength",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.maxValue[x]",
+        "path": "Rendering.maxValue[x]",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "decimal"
+          },
+          {
+            "code": "integer"
+          },
+          {
+            "code": "date"
+          },
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "time"
+          },
+          {
+            "code": "string"
+          },
+          {
+            "code": "Coding"
+          },
+          {
+            "code": "Quantity"
+          },
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.minValue[x]",
+        "path": "Rendering.minValue[x]",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "decimal"
+          },
+          {
+            "code": "integer"
+          },
+          {
+            "code": "date"
+          },
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "time"
+          },
+          {
+            "code": "string"
+          },
+          {
+            "code": "Coding"
+          },
+          {
+            "code": "Quantity"
+          },
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Rendering.version",
+        "path": "Rendering.version",
+        "short": "The vehicle make",
+        "definition": "The vehicle make, e.g., Chevrolet.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "id"
+          }
+        ]
+      }
+    ]
+  }
+}
