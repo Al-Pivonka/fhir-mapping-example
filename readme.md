@@ -1,5 +1,5 @@
 I've included the fsh files which define the source data-model.
-The output of sushi is also included within fsh-generated/resources and awp/logical (copiedlogi)
+The output of sushi is also included within fsh-generated/resources and awp/logical
 
 Within input/awp is the following:
 
