@@ -1,0 +1,55 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "fhir.example",
+      "url": "http://example.org/ImplementationGuide/fhir.example",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ImplementationGuide-fhir.example.json",
+      "resourceType": "ImplementationGuide",
+      "id": "fhir.example",
+      "url": "http://example.org/ImplementationGuide/fhir.example",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "StructureDefinition-fhir2-formtemplate.json",
+      "resourceType": "StructureDefinition",
+      "id": "fhir2-formtemplate",
+      "url": "http://example.org/StructureDefinition/fhir2-formtemplate",
+      "version": "0.1.0",
+      "kind": "logical",
+      "type": "http://example.org/StructureDefinition/fhir2-formtemplate"
+    },
+    {
+      "filename": "StructureDefinition-item.json",
+      "resourceType": "StructureDefinition",
+      "id": "item",
+      "url": "http://example.org/StructureDefinition/item",
+      "version": "0.1.0",
+      "kind": "logical",
+      "type": "http://example.org/StructureDefinition/item"
+    },
+    {
+      "filename": "StructureDefinition-rendering.json",
+      "resourceType": "StructureDefinition",
+      "id": "rendering",
+      "url": "http://example.org/StructureDefinition/rendering",
+      "version": "0.1.0",
+      "kind": "logical",
+      "type": "http://example.org/StructureDefinition/rendering"
+    },
+    {
+      "filename": "StructureDefinition-setting.json",
+      "resourceType": "StructureDefinition",
+      "id": "setting",
+      "url": "http://example.org/StructureDefinition/setting",
+      "version": "0.1.0",
+      "kind": "logical",
+      "type": "http://example.org/StructureDefinition/setting"
+    }
+  ]
+}

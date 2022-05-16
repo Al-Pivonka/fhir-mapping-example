@@ -1,6 +1,6 @@
-map "http://hl7.org/fhir/StructureMap/example" = "monkeyButt"
+map "http://monkey.butt.com/FormTemplate2FHIR" = "monkeyButt"
 
-uses "http://example.org/StructureDefinition/FHIR2FormTemplate" alias FHIR2FormTemplate as source
+uses "http://example.org/StructureDefinition/fhir2-formtemplate" alias FHIR2FormTemplate as source
 uses "http://hl7.org/fhir/StructureDefinition/Questionnaire" alias Questionnaire as target
 
 

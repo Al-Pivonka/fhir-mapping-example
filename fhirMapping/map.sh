@@ -1,1 +1,1 @@
-java -jar /Users/al.pivonka/java-lib/validator_cli.jar ./source/FHIR2FormTemplate-FHIR2FormTemplateExample.json -transform http://hl7.org/fhir/StructureMap/example -version 4.0.1 -ig ../../fsh-generated/resources -output ./output/output.json -debug
+java -jar /Users/al.pivonka/java-lib/validator_cli.jar source/FHIR2FormTemplateExample2.json -transform http://monkey.butt.com/FormTemplate2FHIR  -ig logicalModel-ig/package -ig map -output output/FT-2-FHIR.txt -debug

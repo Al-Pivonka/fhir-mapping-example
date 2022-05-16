@@ -1,0 +1,22 @@
+{
+  "ImplementationGuide/fhir.example": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/fhir2-formtemplate": {
+    "errors": 0,
+    "warnings": 14
+  },
+  "StructureDefinition/item": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/rendering": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/setting": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

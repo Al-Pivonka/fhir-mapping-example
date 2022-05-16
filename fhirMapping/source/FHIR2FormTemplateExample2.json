@@ -1,0 +1,7 @@
+{
+  "resourceType": "fhir2-formtemplate",
+  "id": "fhir2-formtemplate",
+  "template": {
+    "status": "draft"
+  }
+}

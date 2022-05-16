@@ -1,9 +1,9 @@
 {
-  "resourceType": "FHIR2FormTemplate",
-  "id": "FHIR2FormTemplateExample",
+  "resourceType": "fhir2-formtemplate",
+  "id": "fhir2-formtemplate",
   "template": {
     "status": "draft",
-    "id": {
+    "theId": {
       "required": true,
       "id": "FORM_ID",
       "label": "Id",
