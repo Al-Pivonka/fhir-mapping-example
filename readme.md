@@ -1,13 +1,11 @@
 I've included the fsh files which define the source data-model.
 The output of sushi is also included within fsh-generated/resources and awp/logical
 
-Within input/awp is the following:
+Within input/ are the following:
 
-1. input/awp/logical - copied logical model generated from fsh defintion ./input/fsh/
-2. input/awp/map : mapping file
-3. input/awp/source : example file generated from fsh (copied from ./fsh-generated/resources)
-4. inpt/awp/map.sh (shell file to execute validator_cli.jar ./source commands)
-    a. update with your location of validator_cli.jar
+1. fsh/examples -- commented out example of old Resource definitions that is represented within the logical model.
+2. fsh-source-DomainResource -- commented out Domain Resource model.
+3. fsh-source-LogicalModel -- Copy of contents within fsh-source-DomainResource yet utilizing Logical and Base representing the same logical model as contained within fsh-source-DomainResource
 
 
 Output of run is as follows with errors:
