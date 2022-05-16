@@ -4,8 +4,15 @@ The output of sushi is also included within fsh-generated/resources and awp/logi
 Within input/ are the following:
 
 1. fsh/examples -- commented out example of old Resource definitions that is represented within the logical model.
-2. fsh-source-DomainResource -- commented out Domain Resource model.
-3. fsh-source-LogicalModel -- Copy of contents within fsh-source-DomainResource yet utilizing Logical and Base representing the same logical model as contained within fsh-source-DomainResource
+2. fsh/fsh-source-DomainResource -- commented out Domain Resource model.
+3. fsh/fsh-source-LogicalModel -- Copy of contents within fsh-source-DomainResource yet utilizing Logical and Base representing the same logical model as contained within fsh-source-DomainResource
+
+
+Within fhirMapping are the following:
+1. logical - now empty
+2. map - contains mapping file
+3. output - empty yet target for mapping output.
+4. source - contains json example generated from original Resource Model. 
 
 
 Output of run is as follows with errors:
