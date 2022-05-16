@@ -6,7 +6,8 @@
   "name": "Setting",
   "title": "Setting",
   "status": "active",
-  "fhirVersion": "4.0.1",
+  "description": "Setting is a collection of configuration setting for display widgets used with in the xxx.yyy.com system",
+  "fhirVersion": "5.0.0-snapshot1",
   "mapping": [
     {
       "identity": "rim",
@@ -24,7 +25,8 @@
       {
         "id": "setting",
         "path": "setting",
-        "short": "Setting"
+        "short": "Setting",
+        "definition": "Setting is a collection of configuration setting for display widgets used with in the xxx.yyy.com system"
       },
       {
         "id": "setting.name",

@@ -6,7 +6,8 @@
   "name": "Rendering",
   "title": "Rendering",
   "status": "active",
-  "fhirVersion": "4.0.1",
+  "description": "represents configuration for a UI widget on how it is interpreted to be displayed.",
+  "fhirVersion": "5.0.0-snapshot1",
   "mapping": [
     {
       "identity": "rim",
@@ -24,13 +25,14 @@
       {
         "id": "rendering",
         "path": "rendering",
-        "short": "Rendering"
+        "short": "Rendering",
+        "definition": "represents configuration for a UI widget on how it is interpreted to be displayed."
       },
       {
         "id": "rendering.label",
         "path": "rendering.label",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "the lable",
+        "definition": "the lable",
         "min": 0,
         "max": "1",
         "type": [
@@ -42,8 +44,8 @@
       {
         "id": "rendering.hidden",
         "path": "rendering.hidden",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "if the element is hidden",
+        "definition": "if the element is hidden",
         "min": 0,
         "max": "1",
         "type": [
@@ -55,8 +57,8 @@
       {
         "id": "rendering.description",
         "path": "rendering.description",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "description of the element",
+        "definition": "description of the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -68,8 +70,8 @@
       {
         "id": "rendering.pattern",
         "path": "rendering.pattern",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "pattern applied to the element",
+        "definition": "pattern applied to the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -81,8 +83,8 @@
       {
         "id": "rendering.unique",
         "path": "rendering.unique",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "is the element required to be unique",
+        "definition": "is the element required to be unique",
         "min": 0,
         "max": "1",
         "type": [
@@ -94,8 +96,8 @@
       {
         "id": "rendering.disabled",
         "path": "rendering.disabled",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "is the element disabled",
+        "definition": "is the element disabled",
         "min": 0,
         "max": "1",
         "type": [
@@ -107,8 +109,8 @@
       {
         "id": "rendering.type",
         "path": "rendering.type",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "type of the element",
+        "definition": "type of the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -120,8 +122,8 @@
       {
         "id": "rendering.value",
         "path": "rendering.value",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "value of the element",
+        "definition": "value of the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -133,8 +135,8 @@
       {
         "id": "rendering.required",
         "path": "rendering.required",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "is the element requried",
+        "definition": "is the element requried",
         "min": 0,
         "max": "1",
         "type": [
@@ -146,8 +148,8 @@
       {
         "id": "rendering.maxLength",
         "path": "rendering.maxLength",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "max length of the elements value",
+        "definition": "max length of the elements value",
         "min": 0,
         "max": "1",
         "type": [
@@ -159,8 +161,8 @@
       {
         "id": "rendering.minLength",
         "path": "rendering.minLength",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "min lenght of the elements value",
+        "definition": "min lenght of the elements value",
         "min": 0,
         "max": "1",
         "type": [
@@ -172,8 +174,8 @@
       {
         "id": "rendering.maxValue[x]",
         "path": "rendering.maxValue[x]",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "Max value of the element",
+        "definition": "Max value of the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -212,8 +214,8 @@
       {
         "id": "rendering.minValue[x]",
         "path": "rendering.minValue[x]",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "Min value of the element",
+        "definition": "Min value of the element",
         "min": 0,
         "max": "1",
         "type": [
@@ -252,8 +254,8 @@
       {
         "id": "rendering.version",
         "path": "rendering.version",
-        "short": "The vehicle make",
-        "definition": "The vehicle make, e.g., Chevrolet.",
+        "short": "version of the element",
+        "definition": "version of the element",
         "min": 0,
         "max": "1",
         "type": [

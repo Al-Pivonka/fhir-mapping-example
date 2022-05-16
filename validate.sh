@@ -1,0 +1,1 @@
+java -jar /Users/al.pivonka/java-lib/validator_cli.jar ./fhirMapping/source/FHIR2FormTemplateExample.json -version 4.0.1 -ig ./output/package.tgz

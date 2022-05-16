@@ -19,7 +19,7 @@
   ],
   "packageId": "fhir.example",
   "fhirVersion": [
-    "4.0.1"
+    "5.0.0-snapshot1"
   ],
   "definition": {
     "resource": [
@@ -28,6 +28,7 @@
           "reference": "StructureDefinition/fhir2-formtemplate"
         },
         "name": "FHIR2 Form Tempate",
+        "description": "Model which represents a form template as source data structure from xx.yyy.com system",
         "exampleBoolean": false
       },
       {
@@ -35,6 +36,7 @@
           "reference": "StructureDefinition/item"
         },
         "name": "Item",
+        "description": "an item is a collection of settings used with in the xxx.yyy.com system",
         "exampleBoolean": false
       },
       {
@@ -42,6 +44,7 @@
           "reference": "StructureDefinition/rendering"
         },
         "name": "Rendering",
+        "description": "represents configuration for a UI widget on how it is interpreted to be displayed.",
         "exampleBoolean": false
       },
       {
@@ -49,6 +52,7 @@
           "reference": "StructureDefinition/setting"
         },
         "name": "Setting",
+        "description": "Setting is a collection of configuration setting for display widgets used with in the xxx.yyy.com system",
         "exampleBoolean": false
       }
     ],
