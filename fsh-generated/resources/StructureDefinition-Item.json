@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Item",
-  "url": "http://example.org/StructureDefinition/Item",
+  "id": "item",
+  "url": "http://example.org/StructureDefinition/item",
   "version": "0.1.0",
   "name": "Item",
   "title": "Item",
@@ -10,25 +10,25 @@
   "mapping": [
     {
       "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
+      "name": "RIM Mapping",
+      "uri": "http://hl7.org/v3"
     }
   ],
-  "kind": "resource",
+  "kind": "logical",
   "abstract": false,
-  "type": "Item",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "type": "http://example.org/StructureDefinition/item",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation": "specialization",
   "differential": {
     "element": [
       {
-        "id": "Item",
-        "path": "Item",
+        "id": "item",
+        "path": "item",
         "short": "Item"
       },
       {
-        "id": "Item.type",
-        "path": "Item.type",
+        "id": "item.type",
+        "path": "item.type",
         "short": " the type layer",
         "definition": " the type layer",
         "min": 1,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "id": "Item.type.type",
-        "path": "Item.type.type",
+        "id": "item.type.type",
+        "path": "item.type.type",
         "short": "the type of object",
         "definition": "the type of object",
         "min": 0,
@@ -53,8 +53,8 @@
         ]
       },
       {
-        "id": "Item.type.linkId",
-        "path": "Item.type.linkId",
+        "id": "item.type.linkId",
+        "path": "item.type.linkId",
         "short": "the linkId",
         "definition": "the linkId",
         "min": 0,
@@ -66,8 +66,8 @@
         ]
       },
       {
-        "id": "Item.type.text",
-        "path": "Item.type.text",
+        "id": "item.type.text",
+        "path": "item.type.text",
         "short": " the text value",
         "definition": " the text value",
         "min": 0,
@@ -79,18 +79,15 @@
         ]
       },
       {
-        "id": "Item.settings",
-        "path": "Item.settings",
+        "id": "item.settings",
+        "path": "item.settings",
         "short": "The Settings for a given type",
         "definition": "The Settings for a given type",
         "min": 0,
         "max": "*",
         "type": [
           {
-            "code": "DomainResource",
-            "profile": [
-              "http://example.org/StructureDefinition/Setting"
-            ]
+            "code": "http://example.org/StructureDefinition/setting"
           }
         ]
       }

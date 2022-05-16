@@ -3,7 +3,7 @@
   "id": "fhir.example",
   "url": "http://example.org/ImplementationGuide/fhir.example",
   "version": "0.1.0",
-  "name": "testing",
+  "name": "ExampleIG",
   "status": "draft",
   "publisher": "Example Publisher",
   "contact": [
@@ -25,11 +25,31 @@
     "resource": [
       {
         "reference": {
-          "reference": "FHIR2FormTemplate/FHIR2FormTemplateExample"
+          "reference": "StructureDefinition/fhir2-formtemplate"
         },
-        "name": "Example : Questionnaire",
-        "description": "Example : Questionnaire",
-        "exampleBoolean": true
+        "name": "FHIR2 Form Tempate",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/item"
+        },
+        "name": "Item",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rendering"
+        },
+        "name": "Rendering",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/setting"
+        },
+        "name": "Setting",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -46,10 +66,6 @@
       {
         "code": "releaselabel",
         "value": "ci-build"
-      },
-      {
-        "code": "autoload-resources",
-        "value": "false"
       }
     ]
   }

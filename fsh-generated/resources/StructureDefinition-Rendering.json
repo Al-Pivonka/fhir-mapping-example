@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Rendering",
-  "url": "http://example.org/StructureDefinition/Rendering",
+  "id": "rendering",
+  "url": "http://example.org/StructureDefinition/rendering",
   "version": "0.1.0",
   "name": "Rendering",
   "title": "Rendering",
@@ -10,25 +10,25 @@
   "mapping": [
     {
       "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
+      "name": "RIM Mapping",
+      "uri": "http://hl7.org/v3"
     }
   ],
-  "kind": "resource",
+  "kind": "logical",
   "abstract": false,
-  "type": "Rendering",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "type": "http://example.org/StructureDefinition/rendering",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation": "specialization",
   "differential": {
     "element": [
       {
-        "id": "Rendering",
-        "path": "Rendering",
+        "id": "rendering",
+        "path": "rendering",
         "short": "Rendering"
       },
       {
-        "id": "Rendering.label",
-        "path": "Rendering.label",
+        "id": "rendering.label",
+        "path": "rendering.label",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "id": "Rendering.hidden",
-        "path": "Rendering.hidden",
+        "id": "rendering.hidden",
+        "path": "rendering.hidden",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -53,8 +53,8 @@
         ]
       },
       {
-        "id": "Rendering.description",
-        "path": "Rendering.description",
+        "id": "rendering.description",
+        "path": "rendering.description",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -66,8 +66,8 @@
         ]
       },
       {
-        "id": "Rendering.pattern",
-        "path": "Rendering.pattern",
+        "id": "rendering.pattern",
+        "path": "rendering.pattern",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -79,8 +79,8 @@
         ]
       },
       {
-        "id": "Rendering.unique",
-        "path": "Rendering.unique",
+        "id": "rendering.unique",
+        "path": "rendering.unique",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -92,8 +92,8 @@
         ]
       },
       {
-        "id": "Rendering.disabled",
-        "path": "Rendering.disabled",
+        "id": "rendering.disabled",
+        "path": "rendering.disabled",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -105,8 +105,8 @@
         ]
       },
       {
-        "id": "Rendering.type",
-        "path": "Rendering.type",
+        "id": "rendering.type",
+        "path": "rendering.type",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -118,8 +118,8 @@
         ]
       },
       {
-        "id": "Rendering.value",
-        "path": "Rendering.value",
+        "id": "rendering.value",
+        "path": "rendering.value",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -131,8 +131,8 @@
         ]
       },
       {
-        "id": "Rendering.required",
-        "path": "Rendering.required",
+        "id": "rendering.required",
+        "path": "rendering.required",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -144,8 +144,8 @@
         ]
       },
       {
-        "id": "Rendering.maxLength",
-        "path": "Rendering.maxLength",
+        "id": "rendering.maxLength",
+        "path": "rendering.maxLength",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -157,8 +157,8 @@
         ]
       },
       {
-        "id": "Rendering.minLength",
-        "path": "Rendering.minLength",
+        "id": "rendering.minLength",
+        "path": "rendering.minLength",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -170,8 +170,8 @@
         ]
       },
       {
-        "id": "Rendering.maxValue[x]",
-        "path": "Rendering.maxValue[x]",
+        "id": "rendering.maxValue[x]",
+        "path": "rendering.maxValue[x]",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -210,8 +210,8 @@
         ]
       },
       {
-        "id": "Rendering.minValue[x]",
-        "path": "Rendering.minValue[x]",
+        "id": "rendering.minValue[x]",
+        "path": "rendering.minValue[x]",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,
@@ -250,8 +250,8 @@
         ]
       },
       {
-        "id": "Rendering.version",
-        "path": "Rendering.version",
+        "id": "rendering.version",
+        "path": "rendering.version",
         "short": "The vehicle make",
         "definition": "The vehicle make, e.g., Chevrolet.",
         "min": 0,

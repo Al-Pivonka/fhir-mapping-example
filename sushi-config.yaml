@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.example
 canonical: http://example.org
-name: testing
+name: ExampleIG
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -24,9 +24,6 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-dependencies:
- # hl7.fhir.us.core: current
-# hl7.fhir.uv.sdc: current
 # dependencies:
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:

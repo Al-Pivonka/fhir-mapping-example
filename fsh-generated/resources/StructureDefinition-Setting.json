@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Setting",
-  "url": "http://example.org/StructureDefinition/Setting",
+  "id": "setting",
+  "url": "http://example.org/StructureDefinition/setting",
   "version": "0.1.0",
   "name": "Setting",
   "title": "Setting",
@@ -10,25 +10,25 @@
   "mapping": [
     {
       "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
+      "name": "RIM Mapping",
+      "uri": "http://hl7.org/v3"
     }
   ],
-  "kind": "resource",
+  "kind": "logical",
   "abstract": false,
-  "type": "Setting",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "type": "http://example.org/StructureDefinition/setting",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation": "specialization",
   "differential": {
     "element": [
       {
-        "id": "Setting",
-        "path": "Setting",
+        "id": "setting",
+        "path": "setting",
         "short": "Setting"
       },
       {
-        "id": "Setting.name",
-        "path": "Setting.name",
+        "id": "setting.name",
+        "path": "setting.name",
         "short": "name of the setting",
         "definition": "name of the setting",
         "min": 0,
@@ -40,8 +40,8 @@
         ]
       },
       {
-        "id": "Setting.description",
-        "path": "Setting.description",
+        "id": "setting.description",
+        "path": "setting.description",
         "short": "description of the setting",
         "definition": "description of the setting",
         "min": 0,
@@ -53,8 +53,8 @@
         ]
       },
       {
-        "id": "Setting.linkId",
-        "path": "Setting.linkId",
+        "id": "setting.linkId",
+        "path": "setting.linkId",
         "short": "the linkId",
         "definition": "the linkId",
         "min": 0,
@@ -66,18 +66,15 @@
         ]
       },
       {
-        "id": "Setting.settings",
-        "path": "Setting.settings",
+        "id": "setting.settings",
+        "path": "setting.settings",
         "short": "Collection of settings",
         "definition": "Collection of settings",
         "min": 0,
         "max": "*",
         "type": [
           {
-            "code": "DomainResource",
-            "profile": [
-              "http://example.org/StructureDefinition/Rendering"
-            ]
+            "code": "http://example.org/StructureDefinition/rendering"
           }
         ]
       }

@@ -1,6 +1,7 @@
+/*
 Resource: Item
 Parent: DomainResource
-Id: Item
+Id: item
 Title: "Item"
 Description: ""
 * type 1..1 BackboneElement " the type layer"
@@ -12,7 +13,7 @@ Description: ""
 
 Resource: Setting
 Parent: DomainResource
-Id: Setting
+Id: setting
 Title: "Setting"
 Description: ""
 * name 0..1 string "name of the setting"
@@ -21,3 +22,4 @@ Description: ""
 * settings 0..* Rendering "Collection of settings"
 
 
+*/

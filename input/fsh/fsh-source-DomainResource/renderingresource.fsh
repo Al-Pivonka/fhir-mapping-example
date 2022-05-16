@@ -1,6 +1,7 @@
+/*
 Resource: Rendering
 Parent: DomainResource
-Id: Rendering
+Id: rendering
 Title: "Rendering"
 Description: ""
 
@@ -48,5 +49,5 @@ Description: ""
     "The vehicle make, e.g., Chevrolet."
     
     
-    
+*/
     

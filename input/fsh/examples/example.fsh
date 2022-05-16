@@ -1,18 +1,18 @@
-Instance: FHIR2FormTemplateExample
-InstanceOf: FHIR2FormTemplate
+/* Instance: FHIR2FormTemplateExample
+InstanceOf: FHIR2FormTemplates
 Title: "Example : Questionnaire"
 Description: "Example : Questionnaire"
 Usage: #example
 * template.templateStatus = "draft"
 
-* template.id.required = true
-* template.id.id = "FORM_ID"
-* template.id.label = "Id"
-* template.id.value = "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97"
-* template.id.type = "text"
-* template.id.hidden = true
-* template.id.description = ""
-* template.id.pattern = "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+* template.TheId.required = true
+* template.TheId.id = "FORM-ID"
+* template.TheId.label = "Id"
+* template.TheId.value = "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97"
+* template.TheId.type = "text"
+* template.TheId.hidden = true
+* template.TheId.description = ""
+* template.TheId.pattern = "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
 
 * template.type.required = true
 * template.type.id = "FORM-TYPE"
@@ -74,3 +74,5 @@ Usage: #example
 * template.items[=].settings[=].settings[=].unique = true
 * template.items[=].settings[=].settings[=].disabled = true
 * template.items[=].settings[=].settings[=].pattern = ""
+
+*/
